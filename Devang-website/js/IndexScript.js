@@ -4,8 +4,8 @@ window.onload = (function(){
     //manual typewriter effect for home page title and description
     var i = 0;
     var b = 0;
-    var titleText = 'Hello! I’m Sean Nguyen';
-    var descriptionText = "A fourth year computer science student specializing in software engineering at the University of Toronto.";
+    var titleText = 'Welcome to my professional website!';
+    var descriptionText = "I am a Bachelor of Science in Statistics with a double minor in Economics and International Development Studies from the University of Toronto.";
     var speedSlow = 75;
     var speedFast = 20;
     typeWriter();
