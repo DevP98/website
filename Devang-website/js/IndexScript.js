@@ -6,7 +6,7 @@ window.onload = (function(){
     var b = 0;
     var titleText = 'Hello!';
     var descriptionText = "My name is Devang Pandey and I am a Bachelor of Science in Statistics with a double minor in Economics and International Development Studies from the University of Toronto!";
-    var speedSlow = 200;
+    var speedSlow = 140;
     var speedFast = 50;
     typeWriter();
     function typeWriter() {
