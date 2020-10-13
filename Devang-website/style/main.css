@@ -5,14 +5,14 @@ html {
 }
 
 body {
-	background: #fdfdfd;
+	background: #000000;
 	font-family:'Space Mono', 'Work Sans';
   font-size: 14px;
   background-color: #fdfcfc;
-	color: rgb(255, 153, 70);
+	color: rgb(125, 171, 240);
   height: 75%;
   width: 100%;
-  color:rgb(255, 163, 57);
+  color:rgb(117, 158, 235);
   margin: auto;
 }
 
@@ -124,7 +124,7 @@ pointer-events: all;
   top: 0px;
 }
 .item:hover a {
-  color: #f8a342;
+  color: #ffffff;
 }
 
 a {
@@ -141,12 +141,12 @@ p {
 }
 
 .active {
-  border-bottom: 1px solid #ffa44f;
+  border-bottom: 1px solid #fdfdfd;
 }
 
 ::-webkit-scrollbar {
   width: 10px;
-  color:rgb(253, 159, 70);
+  color:rgb(255, 255, 255);
 }
 
 .card {
