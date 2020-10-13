@@ -5,14 +5,14 @@ html {
 }
 
 body {
-	background: #000000;
+	background: #7e0000;
 	font-family:'Space Mono', 'Work Sans';
   font-size: 14px;
-  background-color: #000000;
-	color: rgb(252, 255, 56);
+  background-color: #ffffff;
+	color: rgb(255, 255, 255);
   height: 75%;
   width: 100%;
-  color:rgb(236, 255, 66);
+  color:rgb(255, 255, 255);
   margin: auto;
 }
 
