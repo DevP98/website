@@ -5,14 +5,14 @@ html {
 }
 
 body {
-	background: #b0b1c036;
-	font-family:'Space Mono', 'Work Sans';
+	background: #00000080;
+	font-family:'Major Mono Display', 'Space Mono';
   font-size: 14px;
-  background-color: #686868;
-	color: rgb(255, 255, 255);
+  background-color: #000000;
+	color: rgb(230, 158, 76);
   height: 75%;
   width: 100%;
-  color:#fff;
+  color:rgb(236, 145, 26);
   margin: auto;
 }
 
@@ -75,7 +75,7 @@ footer{
 .text_description{
   display:block;
   margin:0 auto;
-  font-family:'Work Sans';
+  font-family:'Major Mono Display';
   line-height:1.5;
   text-align:center;
   padding-top:25px;
@@ -88,7 +88,7 @@ header{
 .menu {
   text-transform: uppercase;
   font-size: 20px;
-  font-family:'Space Mono';
+  font-family:'Major Mono Display';
   display: inline-block;
   cursor: pointer;
   pointer-events: none;
@@ -124,7 +124,7 @@ pointer-events: all;
   top: 0px;
 }
 .item:hover a {
-  color: #ff0000;
+  color: #ff9900;
 }
 
 a {
@@ -133,11 +133,11 @@ a {
 }
 
 h1, h2 {
-  font-family: 'Space Mono';
+  font-family: 'Major Mono Display';
 }
 
 p {
-  font-family: 'Work Sans';
+  font-family: 'Space Mono';
 }
 
 .active {
