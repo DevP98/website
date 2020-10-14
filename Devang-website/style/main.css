@@ -187,7 +187,7 @@ body {
   justify-content: center;
   align-items: center;   
   font-family: sans-serif;
-  background-color: #f1f1f1; 
+  background-color: #3ad9f5; 
 }
 
 .container {
@@ -233,7 +233,7 @@ body {
   transform: translate(-50%, -50%);
   font-size: 80px;
   transition: 0.7s;
-  color: #fff;
+  color: rgb(68, 195, 245);
 }
 
 i {
@@ -282,7 +282,7 @@ i {
 
 .container .card .face.face2 {
   position: relative;
-  background: #fff;
+  background: rgb(80, 140, 252);
   display: flex;
   justify-content: center;
   align-items: center;
