@@ -15,23 +15,66 @@
     <link href="style/main.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <h1 class="title">Hover over the cards</h1>
-
-    <div id="app" class="container">
-      <card data-image="https://images.unsplash.com/photo-1479660656269-197ebb83b540?dpr=2&auto=compress,format&fit=crop&w=1199&h=798&q=80&cs=tinysrgb&crop=">
-        <h1 slot="header">Canyons</h1>
-        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </card>
-      <card data-image="https://images.unsplash.com/photo-1479659929431-4342107adfc1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">
-        <h1 slot="header">Beaches</h1>
-        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </card>
-      <card data-image="https://images.unsplash.com/photo-1479644025832-60dabb8be2a1?dpr=2&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=">
-        <h1 slot="header">Trees</h1>
-        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </card>
-      <card data-image="https://images.unsplash.com/photo-1479621051492-5a6f9bd9e51a?dpr=2&auto=compress,format&fit=crop&w=1199&h=811&q=80&cs=tinysrgb&crop=">
-        <h1 slot="header">Lakes</h1>
-        <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </card>
-    </div>
+    <header>
+        <div class="menu" id="menu_navigation">
+            <div class="label">Menu</div>
+            <div class="spacer"></div>
+            <div class="item"><a href="index.html">Home</a></div>
+            <div class="item"><a href="about.html">About Me</a></div>
+            <div class="item"><a href="projects.html">Experience</a></div>
+            <div class="item active"><a href="resume.html">Resume</a></div>
+        </div>
+<body>
+    <div class="row">
+        <div class="example-1 card">
+          <div class="wrapper">
+            <div class="date">
+              <span class="day">12</span>
+              <span class="month">Aug</span>
+              <span class="year">2016</span>
+            </div>
+            <div class="data">
+              <div class="content">
+                <span class="author">Jane Doe</span>
+                <h1 class="title"><a href="#">Boxing icon has the will for a couple more fights</a></h1>
+                <p class="text">The highly anticipated world championship fight will take place at 10am and is the second major boxing blockbuster in the nation after 43 years.</p>
+                <label for="show-menu" class="menu-button"><span></span></label>
+              </div>
+              <input type="checkbox" id="show-menu" />
+              <ul class="menu-content">
+                <li>
+                  <a href="#" class="fa fa-bookmark-o"></a>
+                </li>
+                <li><a href="#" class="fa fa-heart-o"><span>47</span></a></li>
+                <li><a href="#" class="fa fa-comment-o"><span>8</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="example-2 card">
+          <div class="wrapper">
+            <div class="header">
+              <div class="date">
+                <span class="day">12</span>
+                <span class="month">Aug</span>
+                <span class="year">2016</span>
+              </div>
+              <ul class="menu-content">
+                <li>
+                  <a href="#" class="fa fa-bookmark-o"></a>
+                </li>
+                <li><a href="#" class="fa fa-heart-o"><span>18</span></a></li>
+                <li><a href="#" class="fa fa-comment-o"><span>3</span></a></li>
+              </ul>
+            </div>
+            <div class="data">
+              <div class="content">
+                <span class="author">Jane Doe</span>
+                <h1 class="title"><a href="#">Stranger Things: The sound of the Upside Down</a></h1>
+                <p class="text">The antsy bingers of Netflix will eagerly anticipate the digital release of the Survive soundtrack, out today.</p>
+                <a href="#" class="button">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
