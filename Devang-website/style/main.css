@@ -141,7 +141,7 @@ p {
 }
 
 .active {
-  border-bottom: 1px solid #4ce3fd;
+  border-bottom: 1px solid #fd4c4c;
 }
 
 ::-webkit-scrollbar {
